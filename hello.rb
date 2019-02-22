@@ -21,13 +21,13 @@ p p_info[:seinengappi]
 p p_info[:ketuekigata]
 
 def plus_ruby(name)
- p name + "ruby"
+  name + "ruby"
 end
 
-plus_ruby("minami")
+p plus_ruby("minami")
 
 def plus_one(num)
- p num + 1
+  num + 1
 end
 
-plus_one(10)
+p plus_one(10)
